@@ -1,0 +1,22 @@
+body{
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+
+h2{
+    align-self: center
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+table, td,th{
+    border: 1px solid black;
+    width: 50vw;
+    padding: 2%;
+    background:lightgray;
+}
