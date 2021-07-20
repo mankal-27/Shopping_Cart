@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Grocery List</h2>
+        <form id="form">
+            <input  id="itemName" type="text" placeholder="Item Name" />
+            <input id="itemQuantity" type="number" name="itemQuantity" placeholder="Item Quantity"  />
+            <input id="itemAmount"  type="number" name="itemAmount" placeholder="Item Amount" />
+            <button type="submit" value="add">Add</button>
+        </form>
+       <table id="mtable">
+           <thead>
+           <tr>
+               <td>Item Name</td>
+               <td id="value1">Unit</td>
+               <td id="value2">Amount</td>
+               <td id="totalValue">Total</td>
+           </tr>
+           </thead>
+           <tbody id="tbody">
+           </tbody>
+       </table>
+       <h3 id="gtotal">
+           Grand Total:
+       </h3>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
